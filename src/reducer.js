@@ -5,7 +5,7 @@ import {
   DECREASE,
   LOADING,
   DISPLAY_ITEMS,
-} from "../actions";
+} from "../src/actions";
 
 const reducer = (state, action) => {
   return state;
