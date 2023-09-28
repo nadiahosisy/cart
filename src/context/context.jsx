@@ -1,9 +1,6 @@
 import { useContext, useReducer, useEffect, createContext } from "react";
+import reducer from "../reducer";
 const AppContext = createContext();
-
-const reducer = (state, action) => {
-  return state;
-};
 
 const initialState = {
   loading: false,
@@ -17,5 +14,5 @@ export const AppProvider = ({ children }) => {
 };
 
 export const useGlobalContext = () => {
-  return useContext(AppContext);
+  return usseContext(AppContext);
 };
